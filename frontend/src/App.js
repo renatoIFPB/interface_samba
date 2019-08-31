@@ -1,12 +1,10 @@
 import React from 'react';
-
 import './App.css';
-import Formulario from './pages/Formulario';
-
+import Routes from './routes';
 
 function App() {
   return (
-    <Formulario />
+    <Routes/>
   );
 }
 
