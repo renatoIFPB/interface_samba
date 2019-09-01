@@ -1,0 +1,13 @@
+[
+    { "id": "ajson1", "parent": "#", "text": "IFPB", "icon": "fas fa-users" },
+    { "id": "ajson2", "parent": "ajson1", "text": "Renato", "icon": "far fa-user" },
+    { "id": "ajson3", "parent": "ajson1", "text": "Lucas", "icon": "far fa-user" },
+    { "id": "ajson4", "parent": "ajson1", "text": "João", "icon": "far fa-user" },
+    { "id": "ajson5", "parent": "ajson1", "text": "Maria", "icon": "far fa-user" },
+    { "id": "ajson6", "parent": "#", "text": "Sistemaas para Internet", "icon": "fas fa-users" },
+    { "id": "ajson7", "parent": "ajson6", "text": "João", "icon": "far fa-user" },
+    { "id": "ajson8", "parent": "ajson6", "text": "Maria", "icon": "far fa-user" },
+    { "id": "ajson9", "parent": "#", "text": "Redes de Computadores", "icon": "fas fa-users" },
+    { "id": "ajson10", "parent": "ajson9", "text": "Renato", "icon": "far fa-user" },
+    { "id": "ajson11", "parent": "ajson9", "text": "Lucas", "icon": "far fa-user" }
+]

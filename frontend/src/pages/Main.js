@@ -8,7 +8,7 @@ import { IoMdConstruct } from "react-icons/io";
 import { FaUserFriends } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { FaSignOutAlt } from "react-icons/fa";
-import './Main.css';
+import './css/Main.css';
 
 export default function Main(){
     return(
@@ -18,8 +18,8 @@ export default function Main(){
                 <img src={logo} alt="samba" id="Main-logo"/>
             </Navbar.Brand>
             <Nav className="mr-auto">
-                <Nav.Link href="/Main"><IoMdHome/> Home</Nav.Link>
-                <Nav.Link href="/Main"><IoMdConstruct/> Installation</Nav.Link>
+                <Nav.Link href="/home"><IoMdHome/> Home</Nav.Link>
+                <Nav.Link href="/home/installation"><IoMdConstruct/> Installation</Nav.Link>
                 <Nav.Link href="/Main"><FaUserFriends/> Groups</Nav.Link>
                 <Nav.Link href="/Main"><FaUsers/> Users</Nav.Link>
             </Nav>

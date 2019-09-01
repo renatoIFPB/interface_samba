@@ -2,13 +2,15 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Login from './pages/Login';
-import Main from './pages/Main';
+import home from './pages/Main';
+import Formulario from './pages/Formulario';
 
 export default function Routes(){
     return(
         <BrowserRouter>
             <Route path="/" exact component={Login}/>
-            <Route path="/Main" component={Main}/>
+            <Route path="/home" exact component={home}/>
+            <Route path="/home/installation" exact component={Formulario}/>
         </BrowserRouter>
         );
 }

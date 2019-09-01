@@ -1,8 +1,12 @@
 import React from 'react';
+import Main from './Main';
+import './css/Formulario.css'
 
 export default function Formulario() {
     return(
         <div className="container">
+            <Main />
+        <div className="Formulario-container"></div>
             <h2>Dados para Instalação</h2>
 
             <form>
