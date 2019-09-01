@@ -20,8 +20,8 @@ export default function Main(){
             <Nav className="mr-auto">
                 <Nav.Link href="/home"><IoMdHome/> Home</Nav.Link>
                 <Nav.Link href="/home/installation"><IoMdConstruct/> Installation</Nav.Link>
-                <Nav.Link href="/Main"><FaUserFriends/> Groups</Nav.Link>
-                <Nav.Link href="/Main"><FaUsers/> Users</Nav.Link>
+                <Nav.Link href="/home/groups"><FaUserFriends/> Groups</Nav.Link>
+                <Nav.Link href="/home"><FaUsers/> Users</Nav.Link>
             </Nav>
             <Nav>
                 <Nav.Link href="/"><FaSignOutAlt/> Logout</Nav.Link>
