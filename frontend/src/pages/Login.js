@@ -8,7 +8,7 @@ export default function Login(){
     return(
         <div className="login-container">
             <form>
-                <img src={logo} alt="samba"/>
+                <img src={logo} alt="samba" id="Login-logo"/>
                 <input
                     placeholder="Username"
                     type="text"

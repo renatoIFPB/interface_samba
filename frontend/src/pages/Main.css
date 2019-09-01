@@ -1,3 +1,9 @@
-img{
+#Main-logo{
     height: 40px;
+}
+
+.Main-container{
+    height: 100%;
+    display: flex;
+    font-size: 18px;
 }
