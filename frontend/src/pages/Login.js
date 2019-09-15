@@ -1,8 +1,6 @@
 import React from 'react';
 import './css/Login.css';
-
 import logo from '../assets/logo.svg';
-
 
 export default function Login(){
     return(
