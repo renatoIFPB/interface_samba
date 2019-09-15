@@ -1,7 +1,6 @@
 import React from 'react';
-import Main from './Main';
-import Tree from '../componentes/Tree';
-import logo from '../assets/logo.svg'
+import Tree from '../components/FileExplorer'
+import Main from './Main'
 
 export default function Grupos(){
     return (
