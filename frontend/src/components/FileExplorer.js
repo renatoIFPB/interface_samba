@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Tree from './Tree';
 
 const StyledFileExplorer = styled.div`
-  width: 800px;
+  width: 1200px;
   max-width: 100%;
   margin: 0 auto;
   display: flex;  
