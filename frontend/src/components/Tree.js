@@ -69,7 +69,7 @@ export default class Tree extends Component {
   onNodeSelect = node => {
     const { onSelect } = this.props;
     onSelect(node);
-  }
+  }  
 
   render() {
     const rootNodes = this.getRootNodes();
